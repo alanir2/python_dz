@@ -1,0 +1,5 @@
+def create_file(file_txt):
+    a = open(file_txt, 'r', encoding='utf-8')
+    print(a.read())
+    a.close()
+create_file('111.txt')
